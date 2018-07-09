@@ -1,9 +1,7 @@
-*********************************************
-Date updated: 7/09/2018
-Analyst: Katya Noykhovich
-Purpose: To subset OU X IM MSD for OGHH dashboard
-Software: R
-**********************************************
+#Date updated: 7/09/2018
+#Analyst: Katya Noykhovich
+#Purpose: To subset OU X IM MSD for OGHH dashboard
+#Software: R
   
 memory.limit(size = 90000)
 
@@ -12,7 +10,7 @@ library(tidyverse)
 library(dplyr)
 
 #import dataset, edit file name/location as needed
-data <- readr::read_tsv("MER_Structured_Dataset_OU_IM_FY17-18_20180622_v2_1.txt", col_names = TRUE)
+data <- readr::read_tsv("filename.txt", col_names = TRUE)
 
 #subset for indicators of interest
 sub1 <- subset(data, indicator == 'OVC_SERV' | indicator == 'PP_PREV')
