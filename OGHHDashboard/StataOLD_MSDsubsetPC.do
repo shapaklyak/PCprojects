@@ -2,7 +2,7 @@
 Purpose: To subset PSNU X IM MSD for OGHH dash
 Date updated: 6/06/2018
 Analyst: Katya 
-**********************************************
+*********************************************
 *import dataset, edit file location as needed
 import delimited C:\Users\knoykhovich\Desktop\datasets\ICPI_MER_Structured_Dataset_PSNU_IM_FY17-18_20180515_v1_1.txt
 
